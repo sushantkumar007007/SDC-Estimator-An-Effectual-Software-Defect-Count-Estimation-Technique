@@ -1,16 +1,29 @@
-# SDC-Estimator-An-Effectual-Software-Defect-Count-Estimation-Technique
+**SDC-Estimator: An Effectual Software Defect Count Estimation Technique**
 
-Estimating the number of defects in a software project before the testing phase can reduce the enormous amount of development cost and help in allocating testing resources optimally and efficiently. But estimating the number of defects in each module of a successive version of the software system will be more efficient in minimizing the development cost.  This is s prediction model to predict number of bugs in the new software system. We utilized Long and Short Term Memory (LSTM) along with Attention layer architecture in our proposed model.
+**Overview**
+This repository contains the data, scripts, and results associated with the study on the SDC-Estimator, a novel approach integrating LSTM and attention mechanisms for cross-version defect prediction. The repository is organized into three main folders: `results`, `data`, and `scripts`.
 
-We used seven software projects and their existing versions from the PROMISE repository.
-This repository consists of all the source code along with results. 
-Following are the requiremnts. 
-Numpy, Pandas, Seaborn, Matplotlib.pyplot, Sklearn.preprocessing, StandardScaler
-Scipy
-Sklearn
-Imblearn.over_sampling import RandomOverSampler
-Time 
-Keras
-We have also shared the time distributed Attention architecture. 
+**Repository Structure**
 
-**System requiremnets: Windos/Mac or clode service, CPU/GPU, RAM more than 8GB, **
+**1. **`results/`
+This folder contains all the results produced during the study, including the following:
+- Study Results**: All the key results used in the analysis presented in the study.
+- Additional Results**: Some results are based on additional data that were not part of the study.
+
+**2.** `data/`
+This folder contains all the datasets used in the study:
+- Study Data**: All datasets that are directly used in the analysis.
+- Additional Data**: Some datasets that were not part of the final study but are included for reference.
+
+**3.** `scripts/`
+This folder contains all the Python scripts used for data processing, model training, and evaluation:
+- `time_distribution.py`**: Implements time distribution functionality.
+- `test_attension.py`**: Script to test the attention mechanism.
+- `CBVP_with_attention.py`**: Main script that integrates LSTM with the attention mechanism for Cross-Version Defect Prediction (CVDP).
+- `time_distributed_densenew.py`**: Implements a custom time-distributed dense layer.
+
+**Requirements**
+To run the scripts, you need to install the required Python packages. You can install all dependencies using the following command:
+
+```bash
+pip install -r requirements.txt
