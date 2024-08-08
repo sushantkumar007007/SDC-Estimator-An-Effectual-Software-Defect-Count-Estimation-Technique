@@ -5,7 +5,7 @@ This repository contains the data, scripts, and results associated with the stud
 
 **Repository Structure**
 
-**1. **`results/`
+**1.** `results/`
 This folder contains all the results produced during the study, including the following:
 - Study Results**: All the key results used in the analysis presented in the study.
 - Additional Results**: Some results are based on additional data that were not part of the study.
