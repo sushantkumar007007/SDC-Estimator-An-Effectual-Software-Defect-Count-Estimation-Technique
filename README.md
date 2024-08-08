@@ -19,7 +19,7 @@ This folder contains all the datasets used in the study:
 This folder contains all the Python scripts used for data processing, model training, and evaluation:
 - `time_distribution.py`**: Implements time distribution functionality.
 - `test_attension.py`**: Script to test the attention mechanism.
-- `CBVP_with_attention.py`**: Main script that integrates LSTM with the attention mechanism for Cross-Version Defect Prediction (CVDP).
+- `CBVP_with_attention.py`**: Main script that integrates LSTM with the Cross-Version Defect Prediction (CVDP) attention mechanism.
 - `time_distributed_densenew.py`**: Implements a custom time-distributed dense layer.
 
 **Requirements**
